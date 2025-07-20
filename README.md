@@ -7,7 +7,7 @@ $ source venv/bin/activate
 $ pip install 'mcp[cli]'  httpx
 ~~~
 
-### Setting Cursor, Claude Desktop settings.json
+### ✅ Setting Cursor, Claude Desktop settings.json
 ~~~
 {
   "mcpServers": {
@@ -24,12 +24,12 @@ $ pip install 'mcp[cli]'  httpx
 ~~~
 
 
-### Run dev mode mcp server
+### ▶️ Run dev mode mcp server
 ~~~
 $ mcp dev main.py
 ~~~
 
-### Run MCP Server Inspector
+### ▶️ Run MCP Server Inspector
 ~~~
 $ npx @modelcontextprotocol/inspector dist/index.js
 ~~~
