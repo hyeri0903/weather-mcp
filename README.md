@@ -12,8 +12,8 @@ $ pip install 'mcp[cli]'  httpx
 {
   "mcpServers": {
     "weather-mcp": {
-      "command": "/Users/hailey/.pyenv/shims/python",
-      "args": ["/Users/hailey/study/weather-mcp/main.py"],
+      "command": "${Pyhon-Path}",
+      "args": ["${main.py file path"],
       "env": {
         "LOCATION": "Seoul"
       }
